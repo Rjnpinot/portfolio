@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razakamahefa Jean Nicolas | Portfolio</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;600;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="noise-overlay"></div>
+    <div class="bg-nebula"></div>
+    <div class="orb orb-primary"></div>
+    <div class="orb orb-secondary"></div>
+
+    <!-- Header -->
+    <header class="top-header" id="top">
+        <div class="container">
+            <a href="#home" class="logo">Nicolas<span>.Dev</span></a>
+
+            <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="primary-nav">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <nav class="top-nav" id="primary-nav" aria-label="Navigation principale">
+                <a class="top-nav-link" href="#about">À propos</a>
+                <a class="top-nav-link" href="#skills">Compétences</a>
+                <a class="top-nav-link" href="#projects">Projets</a>
+                <a class="top-nav-link" href="#experience">Expériences</a>
+                <a class="top-nav-link" href="#contact">Contact</a>
+
+                <a class="icon-btn" href="https://github.com/Rjnpinot" aria-label="GitHub" target="_blank" rel="noopener noreferrer" title="GitHub">
+                    <i data-lucide="github"></i>
+                </a>
+                <button class="icon-btn theme-toggle" type="button" aria-label="Basculer le thème" title="Thème">
+                    <i data-lucide="moon"></i>
+                </button>
+                <a href="#cv" class="btn-minimal btn-cv">Télécharger CV <i data-lucide="download"></i></a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-main reveal">
+                <div class="hero-badge">
+                    <span class="hero-dot" aria-hidden="true"></span>
+                    Master 2 Génie Informatique • Université de Toamasina
+                </div>
+                <h1 class="hero-display">
+                    <span class="outline">RAZAKAMAHEFA</span><br>
+                    <span class="filled shimmer">Jean Nicolas</span>
+                </h1>
+                <p class="hero-lead">
+                    <span class="typing" data-typing="Développeur Web & Logiciel Junior | Étudiant en Génie Informatique"></span>
+                    <span class="typing-caret" aria-hidden="true"></span>
+                </p>
+                <p class="hero-lead hero-quote">
+                    “Passionné par le développement logiciel, les technologies web et les systèmes informatiques.”
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn-primary">Voir mes projets <i data-lucide="arrow-right"></i></a>
+                    <a href="#cv" class="btn-secondary">Télécharger CV <i data-lucide="download"></i></a>
+                    <a href="#contact" class="btn-ghost">Contact <i data-lucide="message-square"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-side reveal" aria-label="Photo professionnelle">
+                <div class="photo-frame hero-photo">
+                    <img src="img/profile.png" alt="Razakamahefa Jean Nicolas" onerror="this.src='img/profile-placeholder.svg'">
+                </div>
+                <div class="hero-meta">
+                    <div class="meta-pill"><i data-lucide="map-pin"></i> Toamasina, Madagascar</div>
+                    <div class="meta-pill"><i data-lucide="sparkles"></i> Disponible: stage • emploi junior • freelance</div>
+                    <a class="meta-pill" href="https://github.com/Rjnpinot" target="_blank" rel="noopener noreferrer"><i data-lucide="github"></i> GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="about-grid reveal">
+                <div class="photo-frame">
+                    <img src="img/profile.png" alt="Razakamahefa Jean Nicolas" onerror="this.src='img/profile-placeholder.svg'">
+                </div>
+                <div class="about-text">
+                    <h2 class="section-label">01. Profil</h2>
+                    <h3 class="section-title">Développeur junior, sérieux et curieux.</h3>
+                    <p class="section-lead">Je suis étudiant en Master 2 Génie Informatique à l’Université de Toamasina. Passionné par les nouvelles technologies et le développement logiciel, je possède des compétences en programmation, bases de données, réseaux et développement web. Sérieux, motivé et curieux, je souhaite évoluer dans un environnement professionnel stimulant.</p>
+                    <div class="stats-mini">
+                        <div class="mini-box">
+                            <span class="val" data-target="23">0</span><span class="unit">ans</span>
+                            <p>Âge</p>
+                        </div>
+                        <div class="mini-box">
+                            <span class="val" data-target="5">0</span><span class="unit">+</span>
+                            <p>Projets</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-label">02. Expertise</h2>
+            <div class="bento-grid">
+                <div class="bento-card card-lg reveal">
+                    <i data-lucide="code-2" class="card-icon"></i>
+                    <h3>Programmation</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar" data-skill="Python" data-level="80"></div>
+                        <div class="skill-bar" data-skill="Java" data-level="70"></div>
+                        <div class="skill-bar" data-skill="C++" data-level="65"></div>
+                        <div class="skill-bar" data-skill="JavaScript" data-level="75"></div>
+                    </div>
+                </div>
+                <div class="bento-card card-md reveal">
+                    <i data-lucide="layout" class="card-icon"></i>
+                    <h3>Web</h3>
+                    <div class="tech-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="bento-card card-md reveal">
+                    <i data-lucide="database" class="card-icon"></i>
+                    <h3>Bases de données</h3>
+                    <div class="tech-tags">
+                        <span>MySQL</span><span>SQLite</span><span>PostgreSQL</span>
+                    </div>
+                </div>
+                <div class="bento-card card-full reveal">
+                    <div class="split-2">
+                        <div>
+                            <h3>Systèmes & Réseaux</h3>
+                            <div class="tech-tags">
+                                <span>Windows</span><span>Linux</span><span>TCP/IP</span><span>DNS</span><span>DHCP</span><span>AD/LDAP</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h3>Outils</h3>
+                            <div class="tools-row">
+                                <div class="tool"><i data-lucide="code"></i> VS Code</div>
+                                <div class="tool"><i data-lucide="box"></i> NetBeans</div>
+                                <div class="tool"><i data-lucide="git-branch"></i> Git</div>
+                                <div class="tool"><i data-lucide="cpu"></i> Octave</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-label">03. Projets</h2>
+            <div class="projects-grid">
+                <article class="project-card reveal">
+                    <div class="project-media" data-gradient="1" aria-hidden="true">
+                        <div class="project-icon"><i data-lucide="warehouse"></i></div>
+                    </div>
+                    <div class="project-body">
+                        <h3>ERP Gestion d’Inventaire</h3>
+                        <p>Analyse et conception, gestion des stocks, interface système ERP.</p>
+                        <div class="tech-tags"><span>Python</span></div>
+                        <div class="project-links">
+                            <a class="project-link" href="https://github.com/Rjnpinot" target="_blank" rel="noopener noreferrer"><i data-lucide="github"></i> Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-media" data-gradient="2" aria-hidden="true">
+                        <div class="project-icon"><i data-lucide="building-2"></i></div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Site Web Institutionnel – TIA Info</h3>
+                        <p>Site responsive en HTML/CSS/JS réalisé dans le cadre d’un stage professionnel.</p>
+                        <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                        <div class="project-links">
+                            <a class="project-link" href="https://github.com/Rjnpinot/PROJET-TIA-INFOS" target="_blank" rel="noopener noreferrer"><i data-lucide="github"></i> Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-media" data-gradient="3" aria-hidden="true">
+                        <div class="project-icon"><i data-lucide="book-open"></i></div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Vakio Boky</h3>
+                        <p>Plateforme littéraire malgache mobile & web interactive avec communauté.</p>
+                        <div class="tech-tags"><span>Web</span><span>Mobile</span></div>
+                        <div class="project-links">
+                            <a class="project-link" href="https://github.com/Rjnpinot" target="_blank" rel="noopener noreferrer"><i data-lucide="github"></i> Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-media" data-gradient="4" aria-hidden="true">
+                        <div class="project-icon"><i data-lucide="calculator"></i></div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Application d’Amortissement</h3>
+                        <p>Calcul automatisé en Java NetBeans & C++.</p>
+                        <div class="tech-tags"><span>Java</span><span>C++</span><span>NetBeans</span></div>
+                        <div class="project-links">
+                            <a class="project-link" href="https://github.com/Rjnpinot" target="_blank" rel="noopener noreferrer"><i data-lucide="github"></i> Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-media" data-gradient="5" aria-hidden="true">
+                        <div class="project-icon"><i data-lucide="scan"></i></div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Traitement d’Image (OCTAVE)</h3>
+                        <p>Filtrage et analyse d’images.</p>
+                        <div class="tech-tags"><span>Octave</span><span>Image Processing</span></div>
+                        <div class="project-links">
+                            <a class="project-link" href="https://github.com/Rjnpinot" target="_blank" rel="noopener noreferrer"><i data-lucide="github"></i> Code</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-label">04. Expériences</h2>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="t-year">2025</div>
+                    <div class="t-content">
+                        <h4>Stage – TIA Info</h4>
+                        <p>Développement web (HTML, CSS, JavaScript) et participation à des projets professionnels.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="t-year">2024 – 2025</div>
+                    <div class="t-content">
+                        <h4>Pro Media Consulting</h4>
+                        <p>Saisie et traitement de données, rigueur et respect des délais.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="t-year">Université de Toamasina</div>
+                    <div class="t-content">
+                        <h4>Projets académiques</h4>
+                        <p>Applications, bases de données, réseaux et projets web réalisés durant le parcours universitaire.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <div class="container">
+            <h2 class="section-label">05. Formation</h2>
+            <div class="edu-grid">
+                <div class="edu-card reveal">
+                    <div class="edu-year">En cours</div>
+                    <h3>Master 2 Génie Informatique</h3>
+                    <p>Université de Toamasina</p>
+                </div>
+                <div class="edu-card reveal">
+                    <div class="edu-year">Diplôme</div>
+                    <h3>Licence Informatique</h3>
+                    <p>Université de Toamasina</p>
+                </div>
+                <div class="edu-card reveal">
+                    <div class="edu-year">Diplôme</div>
+                    <h3>Baccalauréat Scientifique</h3>
+                    <p>Madagascar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages -->
+    <section id="languages">
+        <div class="container">
+            <h2 class="section-label">06. Langues</h2>
+            <div class="lang-grid">
+                <div class="lang-card reveal"><h3>Malagasy</h3><p>Maternel</p></div>
+                <div class="lang-card reveal"><h3>Français</h3><p>Niveau moyen (capacité de travailler)</p></div>
+                <div class="lang-card reveal"><h3>Anglais</h3><p>Intermédiaire</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <div class="container">
+            <h2 class="section-label">07. Services</h2>
+            <div class="services-grid">
+                <article class="service-card reveal">
+                    <i data-lucide="globe" class="card-icon"></i>
+                    <h3>Sites web modernes</h3>
+                    <p>Pages vitrines responsive, performance et UX premium.</p>
+                </article>
+                <article class="service-card reveal">
+                    <i data-lucide="settings" class="card-icon"></i>
+                    <h3>Automatisation</h3>
+                    <p>Scripts et outils pour gagner du temps (Python).</p>
+                </article>
+                <article class="service-card reveal">
+                    <i data-lucide="database" class="card-icon"></i>
+                    <h3>Bases de données</h3>
+                    <p>Conception, requêtes, optimisation et maintenance.</p>
+                </article>
+                <article class="service-card reveal">
+                    <i data-lucide="network" class="card-icon"></i>
+                    <h3>Assistance SI</h3>
+                    <p>Réseaux, systèmes, diagnostic et bonnes pratiques.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV (placeholder) -->
+    <section id="cv">
+        <div class="container">
+            <div class="cv-card reveal">
+                <h2 class="section-label">08. CV</h2>
+                <h3 class="section-title">Téléchargement du CV</h3>
+                <p class="section-lead">Le fichier CV sera ajouté ici. En attendant, le bouton est en mode démo.</p>
+                <a class="btn-primary is-disabled" href="#" aria-disabled="true">Télécharger CV <i data-lucide="download"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-island reveal">
+                <div class="contact-header">
+                    <h2>Travaillons <br> <span class="shimmer">Ensemble.</span></h2>
+                    <p class="section-lead">Basé à Toamasina, disponible pour stage, emploi junior, freelance et projets à distance ou locaux.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <a href="mailto:nihcolah512@gmail.com" class="c-box"><i data-lucide="mail"></i> nihcolah512@gmail.com</a>
+                        <a href="tel:+261345900557" class="c-box"><i data-lucide="phone"></i> +261 34 59 005 57</a>
+                        <div class="social-row">
+                            <a href="https://www.linkedin.com/in/razakamahefa-jean-nicolas-15a90b294/" class="icon-btn" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i data-lucide="linkedin"></i></a>
+                            <a href="https://github.com/Rjnpinot" class="icon-btn" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i data-lucide="github"></i></a>
+                            <a href="https://www.facebook.com/nicolas.razakamahefa.2025" class="icon-btn" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i data-lucide="facebook"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form" onsubmit="event.preventDefault(); alert('Message envoyé avec succès (Démo)');">
+                        <div class="input-group"><input type="text" placeholder="Votre Nom" required></div>
+                        <div class="input-group"><input type="email" placeholder="Votre Email" required></div>
+                        <div class="input-group"><textarea rows="5" placeholder="Parlez-moi de votre projet" required></textarea></div>
+                        <button type="submit" class="btn-primary">Lancer la discussion <i data-lucide="send"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="padding: 6rem 0; text-align: center; opacity: 0.5;">
+        <p>&copy; 2026 Jean Nicolas RAZAKAMAHEFA. Tous droits réservés.</p>
+    </footer>
+
+    <a class="whatsapp-fab" href="#" aria-label="WhatsApp"><i data-lucide="message-circle"></i></a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

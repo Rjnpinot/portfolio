@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1400" viewBox="0 0 1200 1400">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1224"/>
+      <stop offset="1" stop-color="#05070c"/>
+    </linearGradient>
+    <radialGradient id="g2" cx="30%" cy="25%" r="70%">
+      <stop offset="0" stop-color="#2d7dff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#2d7dff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g3" cx="78%" cy="70%" r="60%">
+      <stop offset="0" stop-color="#59b0ff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#59b0ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="1400" fill="url(#g1)"/>
+  <rect width="1200" height="1400" fill="url(#g2)"/>
+  <rect width="1200" height="1400" fill="url(#g3)"/>
+  <circle cx="600" cy="540" r="190" fill="rgba(255,255,255,0.10)"/>
+  <path d="M240 1240c55-210 225-320 360-320s305 110 360 320" fill="rgba(255,255,255,0.10)"/>
+  <text x="50%" y="56%" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="28" fill="rgba(185,198,221,0.75)">
+    Photo professionnelle (placeholder)
+  </text>
+  <text x="50%" y="60.5%" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="20" fill="rgba(185,198,221,0.55)">
+    Remplacez par une image locale quand disponible
+  </text>
+</svg>
